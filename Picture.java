@@ -62,7 +62,7 @@ public class Picture
         sun.moveVertical(-40);
         sun.changeSize(80);
         sun.makeVisible();
-        sun.slowMoveVertical(150);
+  
         
     }
 
@@ -93,4 +93,14 @@ public class Picture
             sun.changeColor("yellow");
         }
     }
+    
+    /**
+     * Sol no se mueva
+     */
+    public void moveSun()
+    {
+        sun.slowMoveVertical(150);
+        
+    }
+
 }
